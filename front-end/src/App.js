@@ -1,6 +1,10 @@
+import { Button } from 'react-bootstrap'
 function App() {
   return (
-    <p>Portal de serviços</p>
+    <div>
+      <button className='btn btn-primary'>Teste</button>
+      <Button>Teste</Button>
+    </div>
   );
 }
 
