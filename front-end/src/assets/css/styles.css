@@ -1,0 +1,30 @@
+:root {
+    --first-color: #8DD11C;
+    --second-color: #0194fe;
+    --third-color: white;
+    --fourth-color: #ABD4F2;
+    --fifth-color: #D2F892;
+    --sixth-color: #F90000;
+}
+
+.main-navbar {
+    background-color: var(--first-color);
+}
+.main-navbar .navbar-toggler {
+    background: var(--second-color);
+    border: none;
+}
+.main-navbar .nav-link {
+    background-color: var(--second-color);
+    border-radius: 3px;
+    text-align: center;
+    margin: 12px;
+    font-size: 14;
+    color: var(--third-color);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+@media(min-width: 768px) {
+    .main-navbar .nav-link {
+        margin: 0 5px;
+    }
+}
