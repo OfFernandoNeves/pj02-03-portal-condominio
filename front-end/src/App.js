@@ -26,13 +26,25 @@ function Header () {
 
   )
 }
+function FooterPage () {
+  return (
+    <footer className="footer text-center text-white py-2 mt-4">
+        <p className='m-0 '>
+          Todos os direitos reservados
+        </p>
+        
+    </footer>
+  )
+}
 
 function HomeView () {
   return (
     <>
       <Header />
-      <p>Main</p>
-      <p>Footer</p>
+      <main>
+        <p>Conteudo</p>
+      </main>
+      <FooterPage />
     </>
   )
 }
